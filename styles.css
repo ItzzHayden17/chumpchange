@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Orbitron';
+    src: url('assets/font/orbitron-bold.otf');
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 0;
+    font-family: 'Orbitron';
+}
+
+a{
+    text-decoration: none;
+}
+.header{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px rgb(129, 129, 129)
+}
+
+.header img{
+    margin: 10px;
+}
+
+.section-1{
+    background-image: url("assets/23.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-1 h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.section-1 p{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.section-1 button{
+    background-color: #00BF63;
+    width: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+.section-2{
+    background-image: url("assets/clover-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.section-2 img{
+    margin: 10px ;
+}
+.section-3{
+    height: 100vh;
+    padding: 20px;
+    color: black;
+}
+
+.section-3 h1{
+    color: #00BF63;
+    margin: 10px 0px 20px 0px;
+}
+
+.section-3 .carousel-item {
+    background-color: rgb(214, 212, 212);
+    text-align: center;
+}
+
+
+.section-4{
+    background-image: url("assets/19.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 30px;
+    color: white;
+}
+
+.section-4 h1{
+    font-size: 50px;
+}
+
+.section-4 h3{
+    font-size: 20px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+}
+
+.section-4 button{
+    width: 100%;
+    margin: 40px 0px;
+    border-radius: 10px;
+    border: none;
+}
