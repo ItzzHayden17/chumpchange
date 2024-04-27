@@ -83,7 +83,7 @@ a{
     margin: 10px ;
 }
 .section-3{
-    height: 100vh;
+    height: 100%;
     padding: 20px;
     color: black;
 }
@@ -93,9 +93,16 @@ a{
     margin: 10px 0px 20px 0px;
 }
 
+.section-3 .carousel-item h1{
+    font-size: 20px;
+    color: black;
+    margin: 0;
+}
 .section-3 .carousel-item {
-    background-color: rgb(214, 212, 212);
     text-align: center;
+}
+.section-3 .carousel-item img{
+    border-radius: 50%;
 }
 
 
