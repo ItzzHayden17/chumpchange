@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Orbitron';
+    src: url('../assets/font/orbitron-bold.otf');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-page{
+    background-image: url("../assets/27.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.welcome-page h1{
+    font-size: 60px;
+    font-family: 'Orbitron';
+}
+
+.welcome-page button{
+    border-radius: 10px;
+    margin-bottom: 8px;
+    width: 100%;
+    background-color: #D3DFC1;
+    border: none;
+}
+
+.welcome-page a{
+    width: 100%;
+}
+
+.model{
+    background-image: url("../assets/25.png");
+    background-size: contain;
+    padding: 0 25px;
+}
+
+.model h1{
+    font-family: 'Orbitron';
+    text-align: center;
+    font-size: 20px;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    margin: 50px 0px;
+}
+
+.model a{
+    color: #00BF63;
+}
