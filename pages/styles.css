@@ -57,3 +57,9 @@ body{
 .model a{
     color: #00BF63;
 }
+
+@media only screen and (min-width: 768px) {
+    body {
+      display: none;
+    }
+  }
