@@ -1,6 +1,6 @@
 const granted = document.getElementById("hidden");
 
-var ipAddressArray = ["102.182.93.12","196.39.38.201",""196.50.213.18]
+var ipAddressArray = ["102.182.93.12","196.39.38.201","196.50.213.18"]
 
 
 fetch('https://api.ipify.org/?format=json').then(response => response.json()).then(data => {
